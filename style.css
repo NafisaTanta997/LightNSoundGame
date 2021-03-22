@@ -1,0 +1,138 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: garamond, , sans-serif;
+  margin: 2em;
+  background-color: #AF6E4D
+}
+
+
+h1 {
+  text-align: center;
+  text-decoration: bold;
+  font-size: 50px;
+  font-style: italic;
+  letter-spacing: 20px;
+  color: #EFCC90;
+  border-style: dotted;
+  border-color: #EFCC90;
+}
+
+button {
+  padding: 12.5px;
+  border-radius: 5px;
+  margin-left: 550px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+  margin-left: 80px;
+}
+
+#button1 {
+  background: #FFC594;
+}
+
+#button1:active, #button1.lit{
+    background:#F88158;
+}
+
+#button2 {
+  background: lightgreen;
+}
+
+#button2:active, #button2.lit {
+    background:green;
+}
+
+#button3 {
+  background: #FFF192;
+}
+
+#button3:active, #button3.lit {
+    background:#FFDD3C;
+}
+
+#button4 {
+  background: lightblue;
+}
+
+#button4:active, #button4.lit {
+    background:navy;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  align: center;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  border-style: dotted;
+  border-color: #EFCC90;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #EFCC90;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
